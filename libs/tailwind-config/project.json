@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-config",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/tailwind-config/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/tailwind-config",
+        "main": "libs/tailwind-config/src/index.ts",
+        "tsConfig": "libs/tailwind-config/tsconfig.lib.json",
+        "assets": ["libs/tailwind-config/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nx/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "libs/tailwind-config/**/*.ts",
+          "libs/tailwind-config/package.json"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
