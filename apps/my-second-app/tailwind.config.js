@@ -1,17 +1,6 @@
 const { createGlobPatternsForDependencies } = require('@nx/react/tailwind');
 const { join } = require('path');
-
-/** @type {import('tailwindcss').Config} */
-const myPreset = {
-  theme: {
-    extend: {
-      colors: {
-        primary: '#ff0000',
-        secondary: '#00ff00',
-      }
-    }
-  }
-}
+const myPreset = require('../../dist/libs/tailwind-config');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

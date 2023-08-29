@@ -1,0 +1,1522 @@
+{
+  parallelism: undefined,
+  externals: [
+    'next'
+  ],
+  optimization: {
+    emitOnErrors: false,
+    checkWasmTypes: false,
+    nodeEnv: false,
+    splitChunks: false,
+    runtimeChunk: {
+      name: 'webpack'
+    },
+    minimize: false,
+    minimizer: [
+      [
+        Function
+        (anonymous)
+      ],
+      [
+        Function
+        (anonymous)
+      ]
+    ],
+    usedExports: false
+  },
+  context: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+  entry: [
+    AsyncFunction
+    :
+    entry
+  ],
+  watchOptions: {
+    aggregateTimeout: 5,
+    ignored: [
+      '**/.git/**',
+      '**/.next/**'
+    ]
+  },
+  output: {
+    publicPath: '/_next/',
+    path: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next',
+    filename: 'static/chunks/[name].js',
+    library: '_N_E',
+    libraryTarget: 'assign',
+    hotUpdateChunkFilename: 'static/webpack/[id].[fullhash].hot-update.js',
+    hotUpdateMainFilename: 'static/webpack/[fullhash].[runtime].hot-update.json',
+    chunkFilename: 'static/chunks/[name].js',
+    strictModuleExceptionHandling: true,
+    crossOriginLoading: undefined,
+    webassemblyModuleFilename: 'static/wasm/[modulehash].wasm',
+    hashFunction: 'xxhash64',
+    hashDigestLength: 16,
+    trustedTypes: 'nextjs#bundler',
+    enabledLibraryTypes: [
+      'assign'
+    ]
+  },
+  performance: false,
+  resolve: {
+    extensions: [
+      '.mjs',
+      '.js',
+      '.tsx',
+      '.ts',
+      '.jsx',
+      '.json',
+      '.wasm'
+    ],
+    extensionAlias: undefined,
+    modules: [
+      'node_modules',
+      '/Users/stefan/projects/nextjs-tester'
+    ],
+    alias: {
+      '@opentelemetry/api': 'next/dist/compiled/@opentelemetry/api',
+      next: '/Users/stefan/projects/nextjs-tester/node_modules/next',
+      'styled-jsx/style$': '/Users/stefan/projects/nextjs-tester/node_modules/styled-jsx/style.js',
+      'styled-jsx$': '/Users/stefan/projects/nextjs-tester/node_modules/styled-jsx/index.js',
+      'private-next-pages/_app': [
+        Array
+      ],
+      'private-next-pages/_error': [
+        Array
+      ],
+      'private-next-pages/_document': [
+        Array
+      ],
+      'private-next-app-dir': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+      'private-next-root-dir': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+      'private-dot-next': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next',
+      'unfetch$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/fetch/index.js',
+      'isomorphic-unfetch$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/fetch/index.js',
+      'whatwg-fetch$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/fetch/whatwg-fetch.js',
+      'object-assign$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object-assign.js',
+      'object.assign/auto': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/auto.js',
+      'object.assign/implementation': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/implementation.js',
+      'object.assign$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/index.js',
+      'object.assign/polyfill': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/polyfill.js',
+      'object.assign/shim': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/shim.js',
+      url: '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/compiled/native-url/index.js',
+      'private-next-rsc-action-proxy': 'next/dist/build/webpack/loaders/next-flight-loader/action-proxy',
+      'private-next-rsc-action-client-wrapper': 'next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper',
+      '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/shared/lib/router/utils/resolve-rewrites.js': false,
+      '@swc/helpers/_': '/Users/stefan/projects/nextjs-tester/node_modules/@swc/helpers/_',
+      setimmediate: 'next/dist/compiled/setimmediate'
+    },
+    fallback: {
+      process: '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/process.js'
+    },
+    mainFields: [
+      'browser',
+      'module',
+      'main'
+    ],
+    plugins: [
+      [
+        JsConfigPathsPlugin
+      ]
+    ]
+  },
+  resolveLoader: {
+    alias: {
+      'error-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/error-loader',
+      'next-swc-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-swc-loader',
+      'next-client-pages-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader',
+      'next-image-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-image-loader',
+      'next-metadata-image-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader',
+      'next-style-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-style-loader',
+      'next-flight-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-loader',
+      'next-flight-client-entry-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader',
+      'next-flight-action-entry-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader',
+      'next-flight-client-module-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader',
+      'noop-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/noop-loader',
+      'next-middleware-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-loader',
+      'next-edge-function-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-function-loader',
+      'next-edge-app-route-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-app-route-loader',
+      'next-edge-ssr-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader',
+      'next-middleware-asset-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-asset-loader',
+      'next-middleware-wasm-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-wasm-loader',
+      'next-app-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-app-loader',
+      'next-font-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-font-loader',
+      'next-invalid-import-error-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-invalid-import-error-loader',
+      'next-metadata-route-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader'
+    },
+    modules: [
+      'node_modules'
+    ],
+    plugins: []
+  },
+  module: {
+    rules: [
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ],
+      [
+        Object
+      ]
+    ],
+    parser: {
+      javascript: [
+        Object
+      ]
+    },
+    generator: {
+      asset: [
+        Object
+      ]
+    },
+    unsafeCache: [
+      Function
+      (anonymous)
+    ]
+  },
+  plugins: [
+    ReactFreshWebpackPlugin
+    {
+      webpackMajorVersion: 5,
+      RuntimeGlobals: [
+        Object
+      ],
+      RuntimeModule: [
+        Function
+      ],
+      Template: [
+        Function
+      ]
+    },
+    ProvidePlugin
+    {
+      definitions: [
+        Object
+      ]
+    },
+    DefinePlugin
+    {
+      definitions: [
+        Object
+      ]
+    },
+    ReactLoadablePlugin
+    {
+      filename: 'react-loadable-manifest.json',
+      pagesDir: undefined,
+      runtimeAsset: 'server/middleware-react-loadable-manifest.js',
+      dev: true
+    },
+    DropClientPage
+    {
+      ampPages: Set(0)
+    {}
+    },
+    IgnorePlugin
+    {
+      options: [
+        Object
+      ],
+      checkIgnore: [
+        Function
+        :
+        bound
+        checkIgnore
+      ]
+    },
+    NextJsRequireCacheHotReloader
+    {
+      prevAssets: null,
+      hasServerComponents: true
+    },
+    HotModuleReplacementPlugin
+    {
+      options: {}
+    },
+    BuildManifestPlugin
+    {
+      buildId: 'development',
+      isDevFallback: false,
+      rewrites: [
+        Object
+      ],
+      appDirEnabled: true,
+      exportRuntime: true
+    },
+    ProfilingPlugin
+    {
+      runWebpackSpan: [
+        Span
+      ]
+    },
+    WellKnownErrorsPlugin
+    {},
+    CopyFilePlugin
+    {
+      filePath: '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/polyfill-nomodule.js',
+      cacheKey: '13.4.1',
+      name: 'static/chunks/polyfills.js',
+      info: [
+        Object
+      ]
+    },
+    AppBuildManifestPlugin
+    {
+      dev: true
+    },
+    ClientReferenceManifestPlugin
+    {
+      dev: true,
+      appDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+      ASYNC_CLIENT_MODULES: Set(0)
+    {}
+    },
+    NextFontManifestPlugin
+    {
+      appDirEnabled: true
+    },
+    NextMiniCssExtractPlugin
+    {
+      _sortedModulesCache: [
+        WeakMap
+      ],
+      options: [
+        Object
+      ],
+      runtimeOptions: [
+        Object
+      ],
+      __next_css_remove: true
+    }
+  ],
+  experiments: {
+    layers: true,
+    cacheUnaffected: true,
+    buildHttp: undefined
+  },
+  snapshot: {
+    managedPaths: [
+      /^(.
+      +
+      ?
+      [\\/]
+      node_modules
+      [
+        \
+        \
+      /
+    ]
+    )/
+  ]
+  },
+  cache: {
+    type: 'filesystem',
+    version: '13.4.1|{"appDir":true,"pageExtensions":["tsx","ts","jsx","js"],"trailingSlash":false,"buildActivity":true,"buildActivityPosition":"bottom-right","productionBrowserSourceMaps":false,"reactStrictMode":false,"optimizeFonts":true,"optimizeCss":false,"nextScriptWorkers":false,"scrollRestoration":false,"basePath":"","pageEnv":false,"excludeDefaultMomentLocales":true,"assetPrefix":"","disableOptimizedLoading":true,"isEdgeRuntime":false,"reactProductionProfiling":false,"webpack":true,"hasRewrites":false,"swcMinify":true,"swcLoader":true,"legacyBrowsers":false,"imageLoaderFile":""}',
+    cacheDirectory: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next/cache/webpack',
+    buildDependencies: {
+      config: [
+        Array
+      ]
+    },
+    name: 'client-development'
+  },
+  mode: 'development',
+  name: 'client',
+  target: [
+    'web',
+    'es5'
+  ],
+  devtool: 'eval-source-map'
+}
+next.config@webpack: options {
+dir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+dev: true,
+isServer: false,
+buildId: 'development',
+config: {
+env: {},
+webpack: [Function (anonymous)],
+eslint: {
+ignoreDuringBuilds: true
+},
+typescript: {ignoreBuildErrors: false, tsconfigPath: 'tsconfig.json'},
+distDir: '../../apps/nextjs-tester/.next',
+cleanDistDir: true,
+assetPrefix: '',
+configOrigin: 'next.config.js',
+useFileSystemPublicRoutes: true,
+generateBuildId: [Function: generateBuildId],
+generateEtags: true,
+pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+poweredByHeader: true,
+compress: true,
+analyticsId: '',
+images: {
+deviceSizes: [Array],
+imageSizes: [Array],
+path: '/_next/image',
+loader: 'default',
+loaderFile: '',
+domains: [],
+disableStaticImages: false,
+minimumCacheTTL: 60,
+formats: [Array],
+dangerouslyAllowSVG: false,
+contentSecurityPolicy: "script-src 'none'; frame-src 'none'; sandbox;",
+contentDispositionType: 'inline',
+remotePatterns: [],
+unoptimized: false
+},
+devIndicators: {
+buildActivity: true, buildActivityPosition: 'bottom-right'
+},
+onDemandEntries: {maxInactiveAge: 15000, pagesBufferLength: 2},
+amp: {canonicalBase: ''},
+basePath: '',
+sassOptions: {},
+trailingSlash: false,
+i18n: null,
+productionBrowserSourceMaps: false,
+optimizeFonts: true,
+excludeDefaultMomentLocales: true,
+serverRuntimeConfig: {},
+publicRuntimeConfig: {
+},
+reactStrictMode: false,
+httpAgentOptions: {
+keepAlive: true
+},
+outputFileTracing: true,
+staticPageGenerationTimeout: 60,
+swcMinify: true,
+output: undefined,
+modularizeImports: undefined,
+experimental: {
+appDocumentPreloading: true,
+clientRouterFilter: true,
+clientRouterFilterRedirects: false,
+fetchCacheKeyPrefix: '',
+middlewarePrefetch: 'flexible',
+optimisticClientCache: true,
+manualClientBasePath: false,
+legacyBrowsers: false,
+newNextLinkBehavior: true,
+cpus: 9,
+sharedPool: true,
+isrFlushToDisk: true,
+workerThreads: false,
+pageEnv: false,
+proxyTimeout: undefined,
+optimizeCss: false,
+nextScriptWorkers: false,
+scrollRestoration: false,
+externalDir: false,
+disableOptimizedLoading: false,
+gzipSize: true,
+swcFileReading: true,
+craCompat: false,
+esmExternals: true,
+appDir: true,
+isrMemoryCacheSize: 52428800,
+incrementalCacheHandlerPath: undefined,
+fullySpecified: false,
+outputFileTracingRoot: '/Users/stefan/projects/nextjs-tester',
+swcTraceProfiling: false,
+forceSwcTransforms: false,
+swcPlugins: undefined,
+largePageDataBytes: 128000,
+disablePostcssPresetEnv: undefined,
+amp: undefined,
+urlImports: undefined,
+adjustFontFallbacks: false,
+adjustFontFallbacksWithSizeAdjust: false,
+turbo: undefined,
+turbotrace: undefined,
+typedRoutes: false,
+instrumentationHook: false
+},
+configFile: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/next.config.js',
+configFileName: 'next.config.js',
+transpilePackages: []
+},
+defaultLoaders: {babel: {loader: 'next-swc-loader', options: [Object] }},
+totalPages: 2,
+webpack: [Function: f] {
+webpack: [Getter],
+validate: [Getter],
+validateSchema: [Getter],
+version: [Getter],
+cli: [Getter],
+AutomaticPrefetchPlugin: [Getter],
+AsyncDependenciesBlock: [Getter],
+BannerPlugin: [Getter],
+Cache: [Getter],
+Chunk: [Getter],
+ChunkGraph: [Getter],
+CleanPlugin: [Getter],
+Compilation: [Getter],
+Compiler: [Getter],
+ConcatenationScope: [Getter],
+ContextExclusionPlugin: [Getter],
+ContextReplacementPlugin: [Getter],
+DefinePlugin: [Getter],
+DelegatedPlugin: [Getter],
+Dependency: [Getter],
+DllPlugin: [Getter],
+DllReferencePlugin: [Getter],
+DynamicEntryPlugin: [Getter],
+EntryOptionPlugin: [Getter],
+EntryPlugin: [Getter],
+EnvironmentPlugin: [Getter],
+EvalDevToolModulePlugin: [Getter],
+EvalSourceMapDevToolPlugin: [Getter],
+ExternalModule: [Getter],
+ExternalsPlugin: [Getter],
+Generator: [Getter],
+HotUpdateChunk: [Getter],
+HotModuleReplacementPlugin: [Getter],
+IgnorePlugin: [Getter],
+JavascriptModulesPlugin: [Getter],
+LibManifestPlugin: [Getter],
+LibraryTemplatePlugin: [Getter],
+LoaderOptionsPlugin: [Getter],
+LoaderTargetPlugin: [Getter],
+Module: [Getter],
+ModuleFilenameHelpers: [Getter],
+ModuleGraph: [Getter],
+ModuleGraphConnection: [Getter],
+NoEmitOnErrorsPlugin: [Getter],
+NormalModule: [Getter],
+NormalModuleReplacementPlugin: [Getter],
+MultiCompiler: [Getter],
+Parser: [Getter],
+PrefetchPlugin: [Getter],
+ProgressPlugin: [Getter],
+ProvidePlugin: [Getter],
+RuntimeGlobals: [Getter],
+RuntimeModule: [Getter],
+SingleEntryPlugin: [Getter],
+SourceMapDevToolPlugin: [Getter],
+Stats: [Getter],
+Template: [Getter],
+UsageState: [Getter],
+WatchIgnorePlugin: [Getter],
+WebpackError: [Getter],
+WebpackOptionsApply: [Getter],
+WebpackOptionsDefaulter: [Getter],
+WebpackOptionsValidationError: [Getter],
+ValidationError: [Getter],
+cache: {
+MemoryCachePlugin: [Getter] },
+config: {
+getNormalizedWebpackOptions: [Getter],
+applyWebpackOptionsDefaults: [Getter]
+},
+dependencies: {
+ModuleDependency: [Getter],
+HarmonyImportDependency: [Getter],
+ConstDependency: [Getter],
+NullDependency: [Getter]
+},
+ids: {
+ChunkModuleIdRangePlugin: [Getter],
+NaturalModuleIdsPlugin: [Getter],
+OccurrenceModuleIdsPlugin: [Getter],
+NamedModuleIdsPlugin: [Getter],
+DeterministicChunkIdsPlugin: [Getter],
+DeterministicModuleIdsPlugin: [Getter],
+NamedChunkIdsPlugin: [Getter],
+OccurrenceChunkIdsPlugin: [Getter],
+HashedModuleIdsPlugin: [Getter]
+},
+javascript: {
+EnableChunkLoadingPlugin: [Getter],
+JavascriptModulesPlugin: [Getter],
+JavascriptParser: [Getter]
+},
+optimize: {
+AggressiveMergingPlugin: [Getter],
+AggressiveSplittingPlugin: [Getter],
+InnerGraph: [Getter],
+LimitChunkCountPlugin: [Getter],
+MinChunkSizePlugin: [Getter],
+ModuleConcatenationPlugin: [Getter],
+RealContentHashPlugin: [Getter],
+RuntimeChunkPlugin: [Getter],
+SideEffectsFlagPlugin: [Getter],
+SplitChunksPlugin: [Getter]
+},
+runtime: {
+GetChunkFilenameRuntimeModule: [Getter],
+LoadScriptRuntimeModule: [Getter]
+},
+prefetch: {ChunkPrefetchPreloadPlugin: [Getter] },
+web: {
+FetchCompileAsyncWasmPlugin: [Getter],
+FetchCompileWasmPlugin: [Getter],
+JsonpChunkLoadingRuntimeModule: [Getter],
+JsonpTemplatePlugin: [Getter]
+},
+webworker: {WebWorkerTemplatePlugin: [Getter] },
+node: {
+NodeEnvironmentPlugin: [Getter],
+NodeSourcePlugin: [Getter],
+NodeTargetPlugin: [Getter],
+NodeTemplatePlugin: [Getter],
+ReadFileCompileWasmPlugin: [Getter]
+},
+electron: {ElectronTargetPlugin: [Getter] },
+wasm: {AsyncWebAssemblyModulesPlugin: [Getter] },
+library: {AbstractLibraryPlugin: [Getter], EnableLibraryPlugin: [Getter] },
+container: {
+ContainerPlugin: [Getter],
+ContainerReferencePlugin: [Getter],
+ModuleFederationPlugin: [Getter],
+scope: [Getter]
+},
+sharing: {
+ConsumeSharedPlugin: [Getter],
+ProvideSharedPlugin: [Getter],
+SharePlugin: [Getter],
+scope: [Getter]
+},
+debug: {ProfilingPlugin: [Getter] },
+util: {
+createHash: [Getter],
+comparators: [Getter],
+runtime: [Getter],
+serialization: [Getter],
+cleverMerge: [Getter],
+LazySet: [Getter]
+},
+sources: [Getter],
+experiments: {
+schemes: [Object], ids: [Object] }
+}
+}
+next.config@webpack: config {
+parallelism: undefined,
+externalsPresets: {
+node: true
+},
+externals: [[Function (anonymous)]],
+optimization: {
+emitOnErrors: false,
+checkWasmTypes: false,
+nodeEnv: false,
+splitChunks: false,
+runtimeChunk: undefined,
+minimize: false,
+minimizer: [[Function (anonymous)], [Function (anonymous)]],
+usedExports: false
+},
+context: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+entry: [AsyncFunction: entry],
+watchOptions: {
+aggregateTimeout: 5, ignored: ['**/.git/**', '**/.next/**'] },
+output: {
+publicPath: '/_next/',
+path: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next/server',
+filename: '[name].js',
+library: undefined,
+libraryTarget: 'commonjs2',
+hotUpdateChunkFilename: 'static/webpack/[id].[fullhash].hot-update.js',
+hotUpdateMainFilename: 'static/webpack/[fullhash].[runtime].hot-update.json',
+chunkFilename: '[name].js',
+strictModuleExceptionHandling: true,
+crossOriginLoading: undefined,
+webassemblyModuleFilename: 'static/wasm/[modulehash].wasm',
+hashFunction: 'xxhash64',
+hashDigestLength: 16
+},
+performance: false,
+resolve: {
+extensions: [
+'.js', '.mjs',
+'.tsx', '.ts',
+'.jsx',  '.json',
+'.wasm'
+],
+extensionAlias: undefined,
+modules: ['node_modules', '/Users/stefan/projects/nextjs-tester'],
+alias: {
+'@opentelemetry/api': 'next/dist/compiled/@opentelemetry/api',
+next: '/Users/stefan/projects/nextjs-tester/node_modules/next',
+'styled-jsx/style$': '/Users/stefan/projects/nextjs-tester/node_modules/styled-jsx/style.js',
+'styled-jsx$': '/Users/stefan/projects/nextjs-tester/node_modules/styled-jsx/index.js',
+'private-next-pages/_app': [Array],
+'private-next-pages/_error': [Array],
+'private-next-pages/_document': [Array],
+'private-next-app-dir': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+'private-next-root-dir': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+'private-dot-next': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next',
+'private-next-rsc-action-proxy': 'next/dist/build/webpack/loaders/next-flight-loader/action-proxy',
+'private-next-rsc-action-client-wrapper': 'next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper',
+'@swc/helpers/_': '/Users/stefan/projects/nextjs-tester/node_modules/@swc/helpers/_',
+setimmediate: 'next/dist/compiled/setimmediate'
+},
+mainFields: ['main', 'module'],
+plugins: [[JsConfigPathsPlugin]]
+},
+resolveLoader: {
+alias: {
+'error-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/error-loader',
+'next-swc-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-swc-loader',
+'next-client-pages-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader',
+'next-image-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-image-loader',
+'next-metadata-image-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader',
+'next-style-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-style-loader',
+'next-flight-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-loader',
+'next-flight-client-entry-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader',
+'next-flight-action-entry-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader',
+'next-flight-client-module-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader',
+'noop-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/noop-loader',
+'next-middleware-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-loader',
+'next-edge-function-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-function-loader',
+'next-edge-app-route-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-app-route-loader',
+'next-edge-ssr-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader',
+'next-middleware-asset-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-asset-loader',
+'next-middleware-wasm-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-wasm-loader',
+'next-app-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-app-loader',
+'next-font-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-font-loader',
+'next-invalid-import-error-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-invalid-import-error-loader',
+'next-metadata-route-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader'
+},
+modules: ['node_modules'],
+plugins: []
+},
+module: {
+rules: [
+[Object], [Object],
+[Object], [Object],
+[Object], [Object],
+[Object], [Object],
+[Object]
+],
+parser: {
+javascript: [Object] },
+generator: {asset: [Object] },
+unsafeCache: [Function (anonymous)]
+},
+plugins: [
+DefinePlugin {definitions: [Object] },
+IgnorePlugin {
+options: [Object],
+checkIgnore: [Function: bound checkIgnore]
+},
+NextJsRequireCacheHotReloader {
+prevAssets: null,
+hasServerComponents: true
+},
+PagesManifestPlugin {
+dev: true,
+isEdgeRuntime: false,
+appDirEnabled: true
+},
+ProfilingPlugin { runWebpackSpan: [Span] },
+WellKnownErrorsPlugin {},
+ClientReferenceEntryPlugin {
+dev: true,
+appDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+isEdgeServer: false,
+useServerActions: false,
+assetPrefix: ''
+},
+NextTypesPlugin {
+dir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+distDir: '../../apps/nextjs-tester/.next',
+appDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+dev: true,
+isEdgeServer: false,
+pageExtensions: [Array],
+pagesDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/pages',
+typedRoutes: false,
+distDirAbsolutePath: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next'
+}
+],
+experiments: {
+layers: true, cacheUnaffected: true, buildHttp: undefined},
+snapshot: { managedPaths: [/^(.+?[\\/]node_modules[\\/])/] },
+cache: {
+type: 'filesystem',
+version: '13.4.1|{"appDir":true,"pageExtensions":["tsx","ts","jsx","js"],"trailingSlash":false,"buildActivity":true,"buildActivityPosition":"bottom-right","productionBrowserSourceMaps":false,"reactStrictMode":false,"optimizeFonts":true,"optimizeCss":false,"nextScriptWorkers":false,"scrollRestoration":false,"basePath":"","pageEnv":false,"excludeDefaultMomentLocales":true,"assetPrefix":"","disableOptimizedLoading":true,"isEdgeRuntime":false,"reactProductionProfiling":false,"webpack":true,"hasRewrites":false,"swcMinify":true,"swcLoader":true,"legacyBrowsers":false,"imageLoaderFile":""}',
+cacheDirectory: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next/cache/webpack',
+buildDependencies: { config: [Array] },
+name: 'server-development'
+},
+mode: 'development',
+name: 'server',
+target: 'node12.22',
+devtool: 'eval-source-map'
+}
+next.config@webpack: options {
+dir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+dev: true,
+isServer: true,
+buildId: 'development',
+config: {
+env: {
+},
+webpack: [Function (anonymous)],
+eslint: {
+ignoreDuringBuilds: true
+},
+typescript: {ignoreBuildErrors: false, tsconfigPath: 'tsconfig.json'},
+distDir: '../../apps/nextjs-tester/.next',
+cleanDistDir: true,
+assetPrefix: '',
+configOrigin: 'next.config.js',
+useFileSystemPublicRoutes: true,
+generateBuildId: [Function: generateBuildId],
+generateEtags: true,
+pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+poweredByHeader: true,
+compress: true,
+analyticsId: '',
+images: {
+deviceSizes: [Array],
+imageSizes: [Array],
+path: '/_next/image',
+loader: 'default',
+loaderFile: '',
+domains: [],
+disableStaticImages: false,
+minimumCacheTTL: 60,
+formats: [Array],
+dangerouslyAllowSVG: false,
+contentSecurityPolicy: "script-src 'none'; frame-src 'none'; sandbox;",
+contentDispositionType: 'inline',
+remotePatterns: [],
+unoptimized: false
+},
+devIndicators: {
+buildActivity: true, buildActivityPosition: 'bottom-right'
+},
+onDemandEntries: {maxInactiveAge: 15000, pagesBufferLength: 2},
+amp: {canonicalBase: ''},
+basePath: '',
+sassOptions: {},
+trailingSlash: false,
+i18n: null,
+productionBrowserSourceMaps: false,
+optimizeFonts: true,
+excludeDefaultMomentLocales: true,
+serverRuntimeConfig: {},
+publicRuntimeConfig: {
+},
+reactStrictMode: false,
+httpAgentOptions: {
+keepAlive: true
+},
+outputFileTracing: true,
+staticPageGenerationTimeout: 60,
+swcMinify: true,
+output: undefined,
+modularizeImports: undefined,
+experimental: {
+appDocumentPreloading: true,
+clientRouterFilter: true,
+clientRouterFilterRedirects: false,
+fetchCacheKeyPrefix: '',
+middlewarePrefetch: 'flexible',
+optimisticClientCache: true,
+manualClientBasePath: false,
+legacyBrowsers: false,
+newNextLinkBehavior: true,
+cpus: 9,
+sharedPool: true,
+isrFlushToDisk: true,
+workerThreads: false,
+pageEnv: false,
+proxyTimeout: undefined,
+optimizeCss: false,
+nextScriptWorkers: false,
+scrollRestoration: false,
+externalDir: false,
+disableOptimizedLoading: false,
+gzipSize: true,
+swcFileReading: true,
+craCompat: false,
+esmExternals: true,
+appDir: true,
+isrMemoryCacheSize: 52428800,
+incrementalCacheHandlerPath: undefined,
+fullySpecified: false,
+outputFileTracingRoot: '/Users/stefan/projects/nextjs-tester',
+swcTraceProfiling: false,
+forceSwcTransforms: false,
+swcPlugins: undefined,
+largePageDataBytes: 128000,
+disablePostcssPresetEnv: undefined,
+amp: undefined,
+urlImports: undefined,
+adjustFontFallbacks: false,
+adjustFontFallbacksWithSizeAdjust: false,
+turbo: undefined,
+turbotrace: undefined,
+typedRoutes: false,
+instrumentationHook: false
+},
+configFile: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/next.config.js',
+configFileName: 'next.config.js',
+transpilePackages: []
+},
+defaultLoaders: {babel: {loader: 'next-swc-loader', options: [Object] }},
+totalPages: 3,
+webpack: [Function: f] {
+webpack: [Getter],
+validate: [Getter],
+validateSchema: [Getter],
+version: [Getter],
+cli: [Getter],
+AutomaticPrefetchPlugin: [Getter],
+AsyncDependenciesBlock: [Getter],
+BannerPlugin: [Getter],
+Cache: [Getter],
+Chunk: [Getter],
+ChunkGraph: [Getter],
+CleanPlugin: [Getter],
+Compilation: [Getter],
+Compiler: [Getter],
+ConcatenationScope: [Getter],
+ContextExclusionPlugin: [Getter],
+ContextReplacementPlugin: [Getter],
+DefinePlugin: [Getter],
+DelegatedPlugin: [Getter],
+Dependency: [Getter],
+DllPlugin: [Getter],
+DllReferencePlugin: [Getter],
+DynamicEntryPlugin: [Getter],
+EntryOptionPlugin: [Getter],
+EntryPlugin: [Getter],
+EnvironmentPlugin: [Getter],
+EvalDevToolModulePlugin: [Getter],
+EvalSourceMapDevToolPlugin: [Getter],
+ExternalModule: [Getter],
+ExternalsPlugin: [Getter],
+Generator: [Getter],
+HotUpdateChunk: [Getter],
+HotModuleReplacementPlugin: [Getter],
+IgnorePlugin: [Getter],
+JavascriptModulesPlugin: [Getter],
+LibManifestPlugin: [Getter],
+LibraryTemplatePlugin: [Getter],
+LoaderOptionsPlugin: [Getter],
+LoaderTargetPlugin: [Getter],
+Module: [Getter],
+ModuleFilenameHelpers: [Getter],
+ModuleGraph: [Getter],
+ModuleGraphConnection: [Getter],
+NoEmitOnErrorsPlugin: [Getter],
+NormalModule: [Getter],
+NormalModuleReplacementPlugin: [Getter],
+MultiCompiler: [Getter],
+Parser: [Getter],
+PrefetchPlugin: [Getter],
+ProgressPlugin: [Getter],
+ProvidePlugin: [Getter],
+RuntimeGlobals: [Getter],
+RuntimeModule: [Getter],
+SingleEntryPlugin: [Getter],
+SourceMapDevToolPlugin: [Getter],
+Stats: [Getter],
+Template: [Getter],
+UsageState: [Getter],
+WatchIgnorePlugin: [Getter],
+WebpackError: [Getter],
+WebpackOptionsApply: [Getter],
+WebpackOptionsDefaulter: [Getter],
+WebpackOptionsValidationError: [Getter],
+ValidationError: [Getter],
+cache: {
+MemoryCachePlugin: [Getter] },
+config: {
+getNormalizedWebpackOptions: [Getter],
+applyWebpackOptionsDefaults: [Getter]
+},
+dependencies: {
+ModuleDependency: [Getter],
+HarmonyImportDependency: [Getter],
+ConstDependency: [Getter],
+NullDependency: [Getter]
+},
+ids: {
+ChunkModuleIdRangePlugin: [Getter],
+NaturalModuleIdsPlugin: [Getter],
+OccurrenceModuleIdsPlugin: [Getter],
+NamedModuleIdsPlugin: [Getter],
+DeterministicChunkIdsPlugin: [Getter],
+DeterministicModuleIdsPlugin: [Getter],
+NamedChunkIdsPlugin: [Getter],
+OccurrenceChunkIdsPlugin: [Getter],
+HashedModuleIdsPlugin: [Getter]
+},
+javascript: {
+EnableChunkLoadingPlugin: [Getter],
+JavascriptModulesPlugin: [Getter],
+JavascriptParser: [Getter]
+},
+optimize: {
+AggressiveMergingPlugin: [Getter],
+AggressiveSplittingPlugin: [Getter],
+InnerGraph: [Getter],
+LimitChunkCountPlugin: [Getter],
+MinChunkSizePlugin: [Getter],
+ModuleConcatenationPlugin: [Getter],
+RealContentHashPlugin: [Getter],
+RuntimeChunkPlugin: [Getter],
+SideEffectsFlagPlugin: [Getter],
+SplitChunksPlugin: [Getter]
+},
+runtime: {
+GetChunkFilenameRuntimeModule: [Getter],
+LoadScriptRuntimeModule: [Getter]
+},
+prefetch: {ChunkPrefetchPreloadPlugin: [Getter] },
+web: {
+FetchCompileAsyncWasmPlugin: [Getter],
+FetchCompileWasmPlugin: [Getter],
+JsonpChunkLoadingRuntimeModule: [Getter],
+JsonpTemplatePlugin: [Getter]
+},
+webworker: {WebWorkerTemplatePlugin: [Getter] },
+node: {
+NodeEnvironmentPlugin: [Getter],
+NodeSourcePlugin: [Getter],
+NodeTargetPlugin: [Getter],
+NodeTemplatePlugin: [Getter],
+ReadFileCompileWasmPlugin: [Getter]
+},
+electron: {ElectronTargetPlugin: [Getter] },
+wasm: {AsyncWebAssemblyModulesPlugin: [Getter] },
+library: {AbstractLibraryPlugin: [Getter], EnableLibraryPlugin: [Getter] },
+container: {
+ContainerPlugin: [Getter],
+ContainerReferencePlugin: [Getter],
+ModuleFederationPlugin: [Getter],
+scope: [Getter]
+},
+sharing: {
+ConsumeSharedPlugin: [Getter],
+ProvideSharedPlugin: [Getter],
+SharePlugin: [Getter],
+scope: [Getter]
+},
+debug: {ProfilingPlugin: [Getter] },
+util: {
+createHash: [Getter],
+comparators: [Getter],
+runtime: [Getter],
+serialization: [Getter],
+cleverMerge: [Getter],
+LazySet: [Getter]
+},
+sources: [Getter],
+experiments: {
+schemes: [Object], ids: [Object] }
+},
+nextRuntime: 'nodejs'
+}
+next.config@webpack: config {
+parallelism: undefined,
+externals: [
+'next',
+{
+'@builder.io/partytown': '{}',
+'next/dist/compiled/etag': '{}',
+'next/dist/compiled/chalk': '{}',
+'./cjs/react-dom-server-legacy.browser.production.min.js': '{}',
+'./cjs/react-dom-server-legacy.browser.development.js': '{}'
+},
+{
+buffer: 'commonjs node:buffer',
+'node:buffer': 'commonjs node:buffer',
+events: 'commonjs node:events',
+'node:events': 'commonjs node:events',
+assert: 'commonjs node:assert',
+'node:assert': 'commonjs node:assert',
+util: 'commonjs node:util',
+'node:util': 'commonjs node:util',
+async_hooks: 'commonjs node:async_hooks',
+'node:async_hooks': 'commonjs node:async_hooks'
+},
+[AsyncFunction: handleWebpackExternalForEdgeRuntime]
+],
+optimization: {
+emitOnErrors: false,
+checkWasmTypes: false,
+nodeEnv: false,
+splitChunks: false,
+runtimeChunk: undefined,
+minimize: false,
+minimizer: [[Function (anonymous)], [Function (anonymous)]],
+usedExports: false
+},
+context: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+entry: [AsyncFunction: entry],
+watchOptions: {
+aggregateTimeout: 5, ignored: ['**/.git/**', '**/.next/**'] },
+output: {
+publicPath: '/_next/',
+path: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next/server',
+filename: '[name].js',
+library: '_N_E',
+libraryTarget: 'assign',
+hotUpdateChunkFilename: 'static/webpack/[id].[fullhash].hot-update.js',
+hotUpdateMainFilename: 'static/webpack/[fullhash].[runtime].hot-update.json',
+chunkFilename: '[name].js',
+strictModuleExceptionHandling: true,
+crossOriginLoading: undefined,
+webassemblyModuleFilename: 'static/wasm/[modulehash].wasm',
+hashFunction: 'xxhash64',
+hashDigestLength: 16,
+enabledLibraryTypes: ['assign']
+},
+performance: false,
+resolve: {
+extensions: [
+'.mjs', '.js',
+'.tsx', '.ts',
+'.jsx',  '.json',
+'.wasm'
+],
+extensionAlias: undefined,
+modules: ['node_modules', '/Users/stefan/projects/nextjs-tester'],
+alias: {
+'next/dist/client': 'next/dist/esm/client',
+'next/dist/shared': 'next/dist/esm/shared',
+'next/dist/pages': 'next/dist/esm/pages',
+'next/dist/lib': 'next/dist/esm/lib',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/client/link.js': 'next/dist/esm/client/link',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/client/image.js': 'next/dist/esm/client/image',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/client/script.js': 'next/dist/esm/client/script',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/client/router.js': 'next/dist/esm/client/router',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/shared/lib/head.js': 'next/dist/esm/shared/lib/head',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/shared/lib/dynamic.js': 'next/dist/esm/shared/lib/dynamic',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/pages/_document.js': 'next/dist/esm/pages/_document',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/pages/_app.js': 'next/dist/esm/pages/_app',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/client/components/navigation.js': 'next/dist/client/components/navigation',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/client/components/headers.js': 'next/dist/client/components/headers',
+'@opentelemetry/api': 'next/dist/compiled/@opentelemetry/api',
+next: '/Users/stefan/projects/nextjs-tester/node_modules/next',
+'styled-jsx/style$': '/Users/stefan/projects/nextjs-tester/node_modules/styled-jsx/style.js',
+'styled-jsx$': '/Users/stefan/projects/nextjs-tester/node_modules/styled-jsx/index.js',
+'private-next-pages/_app': [Array],
+'private-next-pages/_error': [Array],
+'private-next-pages/_document': [Array],
+'private-next-app-dir': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+'private-next-root-dir': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+'private-dot-next': '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next',
+'unfetch$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/fetch/index.js',
+'isomorphic-unfetch$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/fetch/index.js',
+'whatwg-fetch$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/fetch/whatwg-fetch.js',
+'object-assign$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object-assign.js',
+'object.assign/auto': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/auto.js',
+'object.assign/implementation': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/implementation.js',
+'object.assign$': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/index.js',
+'object.assign/polyfill': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/polyfill.js',
+'object.assign/shim': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/object.assign/shim.js',
+url: '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/compiled/native-url/index.js',
+'private-next-rsc-action-proxy': 'next/dist/build/webpack/loaders/next-flight-loader/action-proxy',
+'private-next-rsc-action-client-wrapper': 'next/dist/build/webpack/loaders/next-flight-loader/action-client-wrapper',
+'/Users/stefan/projects/nextjs-tester/node_modules/next/dist/shared/lib/router/utils/resolve-rewrites.js': false,
+'@swc/helpers/_': '/Users/stefan/projects/nextjs-tester/node_modules/@swc/helpers/_',
+setimmediate: 'next/dist/compiled/setimmediate'
+},
+fallback: {
+process: '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/polyfills/process.js'
+},
+mainFields: ['edge-light', 'worker', 'browser', 'module', 'main'],
+conditionNames: [
+'edge-light',
+'worker',
+'browser',
+'module',
+'main',
+'import',
+'node'
+],
+plugins: [[JsConfigPathsPlugin]]
+},
+resolveLoader: {
+alias: {
+'error-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/error-loader',
+'next-swc-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-swc-loader',
+'next-client-pages-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-client-pages-loader',
+'next-image-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-image-loader',
+'next-metadata-image-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader',
+'next-style-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-style-loader',
+'next-flight-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-loader',
+'next-flight-client-entry-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader',
+'next-flight-action-entry-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader',
+'next-flight-client-module-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-flight-client-module-loader',
+'noop-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/noop-loader',
+'next-middleware-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-loader',
+'next-edge-function-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-function-loader',
+'next-edge-app-route-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-app-route-loader',
+'next-edge-ssr-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader',
+'next-middleware-asset-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-asset-loader',
+'next-middleware-wasm-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-middleware-wasm-loader',
+'next-app-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-app-loader',
+'next-font-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-font-loader',
+'next-invalid-import-error-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-invalid-import-error-loader',
+'next-metadata-route-loader': '/Users/stefan/projects/nextjs-tester/node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader'
+},
+modules: ['node_modules'],
+plugins: []
+},
+module: {
+rules: [
+[Object], [Object],
+[Object], [Object],
+[Object], [Object],
+[Object], [Object],
+[Object], [Object],
+[Object], [Object],
+[Object], [Object]
+],
+parser: {
+javascript: [Object] },
+generator: {asset: [Object] },
+unsafeCache: [Function (anonymous)]
+},
+plugins: [
+ProvidePlugin {definitions: [Object] },
+DefinePlugin {definitions: [Object] },
+DropClientPage {ampPages: Set(0) {}},
+IgnorePlugin {
+options: [Object],
+checkIgnore: [Function: bound checkIgnore]
+},
+NextJsRequireCacheHotReloader {
+prevAssets: null,
+hasServerComponents: true
+},
+HotModuleReplacementPlugin {options: {}},
+PagesManifestPlugin {
+dev: true,
+isEdgeRuntime: true,
+appDirEnabled: true
+},
+MiddlewarePlugin {
+dev: true, sriEnabled: false},
+ProfilingPlugin {runWebpackSpan: [Span] },
+WellKnownErrorsPlugin {},
+ClientReferenceEntryPlugin {
+dev: true,
+appDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+isEdgeServer: true,
+useServerActions: false,
+assetPrefix: ''
+},
+NextTypesPlugin {
+dir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+distDir: '../../apps/nextjs-tester/.next',
+appDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/app',
+dev: true,
+isEdgeServer: true,
+pageExtensions: [Array],
+pagesDir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/pages',
+typedRoutes: false,
+distDirAbsolutePath: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next'
+}
+],
+experiments: {
+layers: true, cacheUnaffected: true, buildHttp: undefined},
+snapshot: { managedPaths: [/^(.+?[\\/]node_modules[\\/])/] },
+cache: {
+type: 'filesystem',
+version: '13.4.1|{"appDir":true,"pageExtensions":["tsx","ts","jsx","js"],"trailingSlash":false,"buildActivity":true,"buildActivityPosition":"bottom-right","productionBrowserSourceMaps":false,"reactStrictMode":false,"optimizeFonts":true,"optimizeCss":false,"nextScriptWorkers":false,"scrollRestoration":false,"basePath":"","pageEnv":false,"excludeDefaultMomentLocales":true,"assetPrefix":"","disableOptimizedLoading":true,"isEdgeRuntime":true,"reactProductionProfiling":false,"webpack":true,"hasRewrites":false,"swcMinify":true,"swcLoader":true,"legacyBrowsers":false,"imageLoaderFile":""}',
+cacheDirectory: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/.next/cache/webpack',
+buildDependencies: { config: [Array] },
+name: 'edge-server-development'
+},
+mode: 'development',
+name: 'edge-server',
+target: ['web', 'es6'],
+devtool: 'eval-source-map'
+}
+next.config@webpack: options {
+dir: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester',
+dev: true,
+isServer: true,
+buildId: 'development',
+config: {
+env: {},
+webpack: [Function (anonymous)],
+eslint: {
+ignoreDuringBuilds: true
+},
+typescript: {ignoreBuildErrors: false, tsconfigPath: 'tsconfig.json'},
+distDir: '../../apps/nextjs-tester/.next',
+cleanDistDir: true,
+assetPrefix: '',
+configOrigin: 'next.config.js',
+useFileSystemPublicRoutes: true,
+generateBuildId: [Function: generateBuildId],
+generateEtags: true,
+pageExtensions: ['tsx', 'ts', 'jsx', 'js'],
+poweredByHeader: true,
+compress: true,
+analyticsId: '',
+images: {
+deviceSizes: [Array],
+imageSizes: [Array],
+path: '/_next/image',
+loader: 'default',
+loaderFile: '',
+domains: [],
+disableStaticImages: false,
+minimumCacheTTL: 60,
+formats: [Array],
+dangerouslyAllowSVG: false,
+contentSecurityPolicy: "script-src 'none'; frame-src 'none'; sandbox;",
+contentDispositionType: 'inline',
+remotePatterns: [],
+unoptimized: false
+},
+devIndicators: {
+buildActivity: true, buildActivityPosition: 'bottom-right'
+},
+onDemandEntries: {maxInactiveAge: 15000, pagesBufferLength: 2},
+amp: {canonicalBase: ''},
+basePath: '',
+sassOptions: {},
+trailingSlash: false,
+i18n: null,
+productionBrowserSourceMaps: false,
+optimizeFonts: true,
+excludeDefaultMomentLocales: true,
+serverRuntimeConfig: {},
+publicRuntimeConfig: {
+},
+reactStrictMode: false,
+httpAgentOptions: {
+keepAlive: true
+},
+outputFileTracing: true,
+staticPageGenerationTimeout: 60,
+swcMinify: true,
+output: undefined,
+modularizeImports: undefined,
+experimental: {
+appDocumentPreloading: true,
+clientRouterFilter: true,
+clientRouterFilterRedirects: false,
+fetchCacheKeyPrefix: '',
+middlewarePrefetch: 'flexible',
+optimisticClientCache: true,
+manualClientBasePath: false,
+legacyBrowsers: false,
+newNextLinkBehavior: true,
+cpus: 9,
+sharedPool: true,
+isrFlushToDisk: true,
+workerThreads: false,
+pageEnv: false,
+proxyTimeout: undefined,
+optimizeCss: false,
+nextScriptWorkers: false,
+scrollRestoration: false,
+externalDir: false,
+disableOptimizedLoading: false,
+gzipSize: true,
+swcFileReading: true,
+craCompat: false,
+esmExternals: true,
+appDir: true,
+isrMemoryCacheSize: 52428800,
+incrementalCacheHandlerPath: undefined,
+fullySpecified: false,
+outputFileTracingRoot: '/Users/stefan/projects/nextjs-tester',
+swcTraceProfiling: false,
+forceSwcTransforms: false,
+swcPlugins: undefined,
+largePageDataBytes: 128000,
+disablePostcssPresetEnv: undefined,
+amp: undefined,
+urlImports: undefined,
+adjustFontFallbacks: false,
+adjustFontFallbacksWithSizeAdjust: false,
+turbo: undefined,
+turbotrace: undefined,
+typedRoutes: false,
+instrumentationHook: false
+},
+configFile: '/Users/stefan/projects/nextjs-tester/apps/nextjs-tester/next.config.js',
+configFileName: 'next.config.js',
+transpilePackages: []
+},
+defaultLoaders: {babel: {loader: 'next-swc-loader', options: [Object] }},
+totalPages: 0,
+webpack: [Function: f] {
+webpack: [Getter],
+validate: [Getter],
+validateSchema: [Getter],
+version: [Getter],
+cli: [Getter],
+AutomaticPrefetchPlugin: [Getter],
+AsyncDependenciesBlock: [Getter],
+BannerPlugin: [Getter],
+Cache: [Getter],
+Chunk: [Getter],
+ChunkGraph: [Getter],
+CleanPlugin: [Getter],
+Compilation: [Getter],
+Compiler: [Getter],
+ConcatenationScope: [Getter],
+ContextExclusionPlugin: [Getter],
+ContextReplacementPlugin: [Getter],
+DefinePlugin: [Getter],
+DelegatedPlugin: [Getter],
+Dependency: [Getter],
+DllPlugin: [Getter],
+DllReferencePlugin: [Getter],
+DynamicEntryPlugin: [Getter],
+EntryOptionPlugin: [Getter],
+EntryPlugin: [Getter],
+EnvironmentPlugin: [Getter],
+EvalDevToolModulePlugin: [Getter],
+EvalSourceMapDevToolPlugin: [Getter],
+ExternalModule: [Getter],
+ExternalsPlugin: [Getter],
+Generator: [Getter],
+HotUpdateChunk: [Getter],
+HotModuleReplacementPlugin: [Getter],
+IgnorePlugin: [Getter],
+JavascriptModulesPlugin: [Getter],
+LibManifestPlugin: [Getter],
+LibraryTemplatePlugin: [Getter],
+LoaderOptionsPlugin: [Getter],
+LoaderTargetPlugin: [Getter],
+Module: [Getter],
+ModuleFilenameHelpers: [Getter],
+ModuleGraph: [Getter],
+ModuleGraphConnection: [Getter],
+NoEmitOnErrorsPlugin: [Getter],
+NormalModule: [Getter],
+NormalModuleReplacementPlugin: [Getter],
+MultiCompiler: [Getter],
+Parser: [Getter],
+PrefetchPlugin: [Getter],
+ProgressPlugin: [Getter],
+ProvidePlugin: [Getter],
+RuntimeGlobals: [Getter],
+RuntimeModule: [Getter],
+SingleEntryPlugin: [Getter],
+SourceMapDevToolPlugin: [Getter],
+Stats: [Getter],
+Template: [Getter],
+UsageState: [Getter],
+WatchIgnorePlugin: [Getter],
+WebpackError: [Getter],
+WebpackOptionsApply: [Getter],
+WebpackOptionsDefaulter: [Getter],
+WebpackOptionsValidationError: [Getter],
+ValidationError: [Getter],
+cache: {
+MemoryCachePlugin: [Getter] },
+config: {
+getNormalizedWebpackOptions: [Getter],
+applyWebpackOptionsDefaults: [Getter]
+},
+dependencies: {
+ModuleDependency: [Getter],
+HarmonyImportDependency: [Getter],
+ConstDependency: [Getter],
+NullDependency: [Getter]
+},
+ids: {
+ChunkModuleIdRangePlugin: [Getter],
+NaturalModuleIdsPlugin: [Getter],
+OccurrenceModuleIdsPlugin: [Getter],
+NamedModuleIdsPlugin: [Getter],
+DeterministicChunkIdsPlugin: [Getter],
+DeterministicModuleIdsPlugin: [Getter],
+NamedChunkIdsPlugin: [Getter],
+OccurrenceChunkIdsPlugin: [Getter],
+HashedModuleIdsPlugin: [Getter]
+},
+javascript: {
+EnableChunkLoadingPlugin: [Getter],
+JavascriptModulesPlugin: [Getter],
+JavascriptParser: [Getter]
+},
+optimize: {
+AggressiveMergingPlugin: [Getter],
+AggressiveSplittingPlugin: [Getter],
+InnerGraph: [Getter],
+LimitChunkCountPlugin: [Getter],
+MinChunkSizePlugin: [Getter],
+ModuleConcatenationPlugin: [Getter],
+RealContentHashPlugin: [Getter],
+RuntimeChunkPlugin: [Getter],
+SideEffectsFlagPlugin: [Getter],
+SplitChunksPlugin: [Getter]
+},
+runtime: {
+GetChunkFilenameRuntimeModule: [Getter],
+LoadScriptRuntimeModule: [Getter]
+},
+prefetch: {ChunkPrefetchPreloadPlugin: [Getter] },
+web: {
+FetchCompileAsyncWasmPlugin: [Getter],
+FetchCompileWasmPlugin: [Getter],
+JsonpChunkLoadingRuntimeModule: [Getter],
+JsonpTemplatePlugin: [Getter]
+},
+webworker: {WebWorkerTemplatePlugin: [Getter] },
+node: {
+NodeEnvironmentPlugin: [Getter],
+NodeSourcePlugin: [Getter],
+NodeTargetPlugin: [Getter],
+NodeTemplatePlugin: [Getter],
+ReadFileCompileWasmPlugin: [Getter]
+},
+electron: {ElectronTargetPlugin: [Getter] },
+wasm: {AsyncWebAssemblyModulesPlugin: [Getter] },
+library: {AbstractLibraryPlugin: [Getter], EnableLibraryPlugin: [Getter] },
+container: {
+ContainerPlugin: [Getter],
+ContainerReferencePlugin: [Getter],
+ModuleFederationPlugin: [Getter],
+scope: [Getter]
+},
+sharing: {
+ConsumeSharedPlugin: [Getter],
+ProvideSharedPlugin: [Getter],
+SharePlugin: [Getter],
+scope: [Getter]
+},
+debug: {ProfilingPlugin: [Getter] },
+util: {
+createHash: [Getter],
+comparators: [Getter],
+runtime: [Getter],
+serialization: [Getter],
+cleverMerge: [Getter],
+LazySet: [Getter]
+},
+sources: [Getter],
+experiments: {
+schemes: [Object], ids: [Object]
+}
+},
+nextRuntime: 'edge'
+}
